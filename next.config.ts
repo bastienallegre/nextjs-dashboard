@@ -1,9 +1,9 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  experimental: {
+  /*experimental: {
     ppr: 'incremental',
-  },
+  },*/ // prevent page pre-rendering
 };
 
 export default nextConfig;
